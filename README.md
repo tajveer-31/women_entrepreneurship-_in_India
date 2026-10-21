@@ -33,6 +33,7 @@ Built with pandas, Seaborn, Matplotlib and GeoPandas.
 - Built a **bubble scatter plot**: x = GDP per MSME, y = % women-owned, bubble size = number of MSMEs, with every State labelled.
 - Added **average reference lines** that split the chart into four quadrants.
 
+![alt text](images/download.png)
 
   
 
@@ -57,6 +58,8 @@ Mapped States into six regions (North, South, East, West, Central, North-East) a
 | West | 34.0 |
 | North | 26.3 |
 
+![alt text](images/downloadok.png)
+
 ### 4. Geospatial view
 Merged regional averages onto a map of India with GeoPandas and drew a **choropleth** (`YlGnBu`). Regional boundaries were dissolved so each region gets one label showing its name and average.
 
@@ -66,6 +69,7 @@ Merged regional averages onto a map of India with GeoPandas and drew a **choropl
 - The **smaller economies** in this sample show a **higher share** of women-owned MSMEs than the largest economies. Higher GDP does not mean higher women's participation.
 - Literacy differs little between the top 5 and bottom 5 States, so it is unlikely to explain the gap on its own.
 
+![alt text](images/downloadkk.png)
 > **Caveat:** These are descriptive comparisons on a small sample of States. They show association, not causation. Regional figures are simple averages of State percentages, not weighted by the number of MSMEs.
 
 ## Tech stack
